@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Zahl eingeben: ");
         int num = sc.nextInt();
 
-        boolean isInWorkingTime = (num >=8 && num <= 16) ? true : false;
+        boolean isInWorkingTime = num >=8 && num <= 16;
 
         if (isInWorkingTime) {
 
